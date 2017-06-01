@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/natrium/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_natrium
+PRODUCT_NAME := natrium
 PRODUCT_DEVICE := natrium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s Plus
